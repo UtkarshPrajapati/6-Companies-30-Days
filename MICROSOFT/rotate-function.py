@@ -5,5 +5,6 @@ class Solution:
         r=curr=sum(i*j for i,j in enumerate(nums))
         while nums:
             curr+=s-nums.pop()*n
-            r=max(curr,r)
+            if curr>r:
+                r=curr
         return r
