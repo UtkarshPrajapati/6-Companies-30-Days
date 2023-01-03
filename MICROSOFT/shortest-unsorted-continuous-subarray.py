@@ -2,7 +2,7 @@ class Solution(object):
     def findUnsortedSubarray(self, nums):
         n=len(nums)
         if n<2: return 0
-        prev,end = nums[0],0
+        end,prev = 0,nums[0]
         for i in range(n):
             if nums[i]<prev: end=i
             else: prev=nums[i]
