@@ -8,7 +8,7 @@ class Solution(object):
             else: prev=nums[i]
         start,prev=n-1,nums[n-1]
         for i in range(n-1,-1,-1):
-            if prev< nums[i]: start=i
+            if prev<nums[i]: start=i
             else: prev=nums[i]
         if end!=0: return end-start+1
         else: return 0
