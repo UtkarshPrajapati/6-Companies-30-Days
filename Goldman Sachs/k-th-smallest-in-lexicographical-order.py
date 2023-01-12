@@ -12,6 +12,6 @@ class Solution(object):
                 result += 1
                 k -= count
             else:
-                result *= 10
+                result*= 10
                 k -= 1
         return result
