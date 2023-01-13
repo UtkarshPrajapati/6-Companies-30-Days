@@ -3,4 +3,4 @@
 
 A Challenge to make sure you start with your goals today , don’t procrastinate and don’t let your college decide your future!
 
-https://htmlpreview.github.io/?https://github.com/UtkarshPrajapati/6-Companies-30-Days/blob/master/Sheet1.html
+https://docs.google.com/document/d/1jkVKWPcOAE2Xjt7GFLV-M8N50HygZpWcO26REFa7dZM/preview?pru=AAABhZwn6NI*BaSxprVyJGMkskcF1bd6ng
