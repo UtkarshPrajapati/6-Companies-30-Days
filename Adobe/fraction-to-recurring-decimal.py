@@ -5,7 +5,7 @@ class Solution(object):
         sign='' if numerator*denominator>=0 else '-'
         numerator,denominator=abs(numerator),abs(denominator)
         res=sign+str(numerator//denominator)+'.'
-        numerator%= denominator
+        numerator%=denominator
         i,part=0,''
         m={numerator:i}
         while numerator%denominator:
