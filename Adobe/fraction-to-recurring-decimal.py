@@ -11,7 +11,7 @@ class Solution(object):
         while numerator%denominator:
             numerator*=10
             i+=1
-            rem=numerator%denominator
+            rem= numerator%denominator
             part+=str(numerator//denominator)
             if rem in m:
                 part=part[:m[rem]]+'('+part[m[rem]:]+')'
